@@ -14,6 +14,7 @@ test.skip("View the Booking Event Details", async({page}) => {
     await mybooking.bookingHeader.click()
     await mybooking.viewDetails.first().click();
     await mybooking.getScreenshot();
+    console.log("*****Test Execution Completed Successfully*****");
 
     // var bookingHeaderDetails = await page.locator("//div[@class='flex flex-wrap items-start justify-between gap-4 mb-8']//div").textContent()
     // console.log("Booking Header Details are: " + bookingHeaderDetails)
